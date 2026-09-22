@@ -1,4 +1,4 @@
-FROM node:25-alpine AS builder
+FROM node:26-alpine AS builder
 
 WORKDIR /app
 
@@ -10,7 +10,7 @@ RUN pnpm install
 
 COPY . .
 
-FROM node:25-alpine AS runtime
+FROM node:26-alpine AS runtime
 
 WORKDIR /app
 
