@@ -10,3 +10,11 @@ build/
 *.log
 coverage/
 pnpm-debug.log*
+
+# Local package-manager configuration
+.npmrc
+postgres.env
+
+# Local package-manager configuration
+.npmrc
+postgres.env
